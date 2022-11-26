@@ -179,6 +179,7 @@ been updated with our new `cheeses` table!
 
 To add some initial data in our database, we can take advantage of the 'seeds' feature of Rails. We can write some code in a `db/seeds.rb` file that is responsible for setting up our database:
 
+
 ```rb
 # db/seeds.rb
 Cheese.create!(name: 'Cheddar', price: 3, is_best_seller: true)
